@@ -21,3 +21,7 @@
   	padding-left: 8%;
   	padding-right: 8%;
   }
+  .image {
+    max-width: 387px;
+    max-height: 84%;
+  }

@@ -26,51 +26,43 @@ class App extends Component {
       </div>
       <div className="row">
           <h2>Musique Live iOS app</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
       <video className="video" autoplay="autoplay" loop="loop" width="380" height="670">
           <source src="source.mp4" type="video/mp4" /></video>
       <div className="row">
           <h2>Musique Live android app</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div className="row">
           <h2>Augmented Reality Game</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
+      <video className="video" autoplay="autoplay" loop="loop" width="380" height="670">
+          <source src="maze.mp4" type="video/mp4" /></video>
       <div className="row">
           <h2>A project to turn my lights on and off</h2>
           <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
+          </div>
+      <video className="video" autoplay="autoplay" loop="loop" width="380" height="250">
+        <source src="lights.mp4" type="video/mp4" /></video>
       <div className="row">
           <h2>An e-book activity app</h2>
-          <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p>more info coming soon</p>
       </div>
       <div className="row">
           <h2>Smoochie Poochies</h2>
-          <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
+          <p>more info coming soon</p>
+     </div>
       <p className="subhead">Here is some stuff I''ve worked on as an employee.</p>
       <div className="row">
           <h2>Buzzfeed</h2>
-          <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
+      <img className="image" src='bfimage.png'/>
       <div className="row">
           <h2>QuizChat</h2>
-          <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
+      <video className="video" autoplay="autoplay" loop="loop" width="380" height="670">
+        <source src="quizchat.mp4" type="video/mp4" /></video>
       <div className="row">
           <h2>Hutch</h2>
-          <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
     )
