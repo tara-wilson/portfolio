@@ -15,7 +15,7 @@
   	left: 417px;
   	background-color: white;
     max-width: 285px;
-    max-height: 82.5%;
+    max-height: 505px;
   }
   .row {
   	padding-left: 8%;
@@ -33,13 +33,13 @@
     top: 40px;
   }
   .extra {
-    padding-top: 30px;
+    padding-top: 40px;
   }
   .outsideright {
-    text-align: right;
     position: absolute;
     top: 90px;
     right: 20px;
+    width: 285px;
   }
   .topspace {
     height: 510px;

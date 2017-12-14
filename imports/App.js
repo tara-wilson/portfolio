@@ -27,25 +27,27 @@ class App extends Component {
       </div>
       <div className="row">
           <h4><a href="#vid1">Musique Live iOS app</a></h4>
-          <p className="links"><a href="#">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="#">Download Link</a></p>
+          <p className="links"><a href="https://github.com/musique-live/iosApp">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="https://itunes.apple.com/us/app/musique-live/id1217586564">Download Link</a></p>
       </div>
       <div className="row">
           <h4><a href="#vid7">Musique Live android app</a></h4>
-          <p className="links"><a href="#">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="#">Download Link</a></p>
+          <p className="links"><a href="https://github.com/tara-wilson/androidApp">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="https://play.google.com/store/apps/details?id=com.musiqueliveapp">Download Link</a></p>
       </div>
       <div className="row">
           <h4><a href="#vid2">Augmented Reality Game</a></h4>
-          <p className="links"><a href="#">Github</a><a href="#">Download Link</a></p>
+          <p className="links"><a href="https://github.com/tara-wilson/ARMaze">Github</a><a href="https://itunes.apple.com/us/app/md-sunrise-farms-corn-maze/id1289492274?mt=8">Download Link</a></p>
       </div>
       <div className="row">
           <h4><a href="#vid3">A project to turn my lights on and off</a></h4>
-          <p className="links"><a href="#">Github</a></p>
+          <p className="links"><a href="https://github.com/tara-wilson/nfc-lights">Github</a></p>
       </div>
        <div className="row">
-        <h4><a href="#vid7">E-book activity app</a></h4>
+        <h4>E-book activity app</h4>
+        <p className="links">App preview coming soon, <a href="http://ryanstewman.com/">Client Website</a></p> 
       </div>
       <div className="row">
-          <h4><a href="#vid7">Smoochie Poochies</a></h4>
+          <h4>Smoochie Poochies</h4>
+          <p className="links">App preview coming soon, <a href="https://www.mysmoochiepoochies.com/">Client Website</a></p> 
      </div>
      </div>
      <div className="outsideright">
@@ -61,14 +63,15 @@ class App extends Component {
         <p>Here is where I learned to build stuff</p>
         </div>
         <div className="row">
-          <h4><a href="#">Cornell Tech, M.Eng, Computer Science</a></h4>
-          <h4><a href="#">NYU, B.A. Computer Science</a></h4>
+          <h4><a href="#vid8">Cornell Tech, M.Eng, Computer Science</a></h4>
+          <h4><a href="#vid9">NYU, B.A. Computer Science</a></h4>
         </div>
         <div className="row extra">
-          <p><a href="#">Here</a> is the link to this website</p>
+          <p><a href="https://github.com/tara-wilson/portfolio">Here</a> is the link to this website</p>
       </div>
     </div>
     <div className="contain">
+      <img id="vid7" className="image" src='linkedin.png'/>
       <video id="vid1" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
           <source src="source.mp4" type="video/mp4" /></video>
       <video id="vid2" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
@@ -79,9 +82,8 @@ class App extends Component {
       <video id="vid5" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
         <source src="quizchat.mp4" type="video/mp4" /></video>
         <img id="vid6" className="image" src='hutch.png'/>
-      <div id="vid7" className="topspace">
-         Coming soon...
-      </div>
+        <img id="vid8" className="image" src='cornell.png'/>
+        <img id="vid9" className="image" src='nyu.png'/>
     </div>
     </div>
     )
