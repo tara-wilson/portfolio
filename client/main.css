@@ -1,7 +1,7 @@
 
   body {
     overflow: hidden;
-    height: 882px;
+    height: 650px;
     width: 432px;
     background: url('chrome-iphone6-432x882@2x.jpg');
     background-position: 400px 10px;
@@ -11,17 +11,26 @@
   .contain {
   	overflow: scroll;
   	position: absolute;
-  	top: 113px;
-  	left: 423px;
+  	top: 86px;
+  	left: 417px;
   	background-color: white;
-    max-width: 387px;
-    max-height: 84%;
+    max-width: 285px;
+    max-height: 82.5%;
   }
   .row {
   	padding-left: 8%;
   	padding-right: 8%;
   }
   .image {
-    max-width: 387px;
-    max-height: 84%;
+    max-width: 285px;
+    max-height: 515px;
+  }
+  .examples {
+    height: 700px;
+  }
+  .outside {
+    padding-top: 50px;
+  }
+  .topspace {
+    height: 510px;
   }

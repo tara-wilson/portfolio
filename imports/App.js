@@ -19,51 +19,61 @@ class App extends Component {
 
   render() {
     return ( 
-    <div className="contain">
+    <div>
+    <div className="outside">
       <div className="row">
-      <h1>Tara Wilson</h1>
-      <p>I am a Mobile Developer. Here is some stuff I''ve created.</p>
+        <h1>Tara Wilson</h1>
+        <p>I am a Mobile Developer. Here is some stuff I''ve created.</p>
       </div>
       <div className="row">
-          <h2>Musique Live iOS app</h2>
-      </div>
-      <video className="video" autoplay="autoplay" loop="loop" width="380" height="670">
-          <source src="source.mp4" type="video/mp4" /></video>
-      <div className="row">
-          <h2>Musique Live android app</h2>
+          <p><a href="#vid1">Musique Live iOS app</a></p>
       </div>
       <div className="row">
-          <h2>Augmented Reality Game</h2>
-      </div>
-      <video className="video" autoplay="autoplay" loop="loop" width="380" height="670">
-          <source src="maze.mp4" type="video/mp4" /></video>
-      <div className="row">
-          <h2>A project to turn my lights on and off</h2>
-          <p>wherein I learned that it is really not that hard to turn on and off the lights yourself...</p>
-          </div>
-      <video className="video" autoplay="autoplay" loop="loop" width="380" height="250">
-        <source src="lights.mp4" type="video/mp4" /></video>
-      <div className="row">
-          <h2>An e-book activity app</h2>
-          <p>more info coming soon</p>
+          <p><a href="#vid7">Musique Live android app</a></p>
       </div>
       <div className="row">
-          <h2>Smoochie Poochies</h2>
-          <p>more info coming soon</p>
+          <p><a href="#vid2">Augmented Reality Game</a></p>
+      </div>
+      <div className="row">
+          <p><a href="#vid3">A project to turn my lights on and off</a></p>
+      </div>
+       <div className="row">
+        <p><a href="#vid7">Elevator to the Top, An e-book activity app</a></p>
+      </div>
+      <div className="row">
+          <p><a href="#vid7">Smoochie Poochies</a></p>
      </div>
-      <p className="subhead">Here is some stuff I''ve worked on as an employee.</p>
       <div className="row">
-          <h2>Buzzfeed</h2>
+        <p >Here is some stuff I''ve worked on as an employee.</p>
       </div>
-      <img className="image" src='bfimage.png'/>
       <div className="row">
-          <h2>QuizChat</h2>
+          <p><a href="#vid4">BuzzFeed</a></p>
       </div>
-      <video className="video" autoplay="autoplay" loop="loop" width="380" height="670">
+      <div className="row">
+          <p><a href="#vid5">QuizChat by BuzzFeed</a></p>
+      </div>
+      <div className="row">
+          <p><a href="#vid6">Hutch</a></p>
+      </div>
+    </div>
+    <div className="contain">
+      <div className="topspace">
+      hey
+      </div>
+      <video id="vid1" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
+          <source src="source.mp4" type="video/mp4" /></video>
+      <video id="vid2" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
+          <source src="maze.mp4" type="video/mp4" /></video>
+      <video id="vid3" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
+        <source src="lights.mp4" type="video/mp4" /></video>
+      <img id="vid4" className="image" src='bfimage.png'/>
+      <video id="vid5" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
         <source src="quizchat.mp4" type="video/mp4" /></video>
-      <div className="row">
-          <h2>Hutch</h2>
+        <img id="vid6" className="image" src='hutch.png'/>
+      <div id="vid7" className="topspace">
+         Coming soon...
       </div>
+    </div>
     </div>
     )
   }
