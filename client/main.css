@@ -112,3 +112,38 @@
       display: none;
     }
   }
+  @media screen and (max-device-width: 200px) {
+    .leftdisplay {
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .mobilehide {
+      display: none;
+    }
+    .mobileshow {
+      display: block;
+    }
+    .inactive {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+    body {
+      display: block;
+      background: none;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .outsideright {
+      display: none;
+    }
+    .outside {
+      display: none;
+    }
+    .contain {
+      display: none;
+    }
+  }
