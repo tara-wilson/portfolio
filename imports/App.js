@@ -22,24 +22,24 @@ class App extends Component {
         <p>I am a Mobile Developer. Here is some stuff I've created.</p>
       </div>
       <div className="row">
-          <h4><a href="#vid1">Musique Live</a></h4>
+          <h4><a className="inactive" href="#vid1">Musique Live</a></h4>
           <p className="links"><a href="https://github.com/musique-live/iosApp">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="https://itunes.apple.com/us/app/musique-live/id1217586564">iOS App</a><a href="https://play.google.com/store/apps/details?id=com.musiqueliveapp">Android App</a></p>
-          <h4><a href="#vid2">Augmented Reality Game</a></h4>
+          <h4><a className="inactive" href="#vid2">Augmented Reality Game</a></h4>
           <p className="links"><a href="https://github.com/tara-wilson/ARMaze">Github</a><a href="https://itunes.apple.com/us/app/md-sunrise-farms-corn-maze/id1289492274?mt=8">Download Link</a></p>
-          <h4><a href="#vid3">NFC Lights Project</a></h4>
+          <h4><a className="inactive" href="#vid3">NFC Lights Project</a></h4>
           <p className="links"><a href="https://github.com/tara-wilson/nfc-lights">Github</a></p>
-        <h4><a href="#vid11">E-book activity app</a></h4>
+        <h4><a className="inactive" href="#vid11">E-book activity app</a></h4>
         <p className="links">App download coming soon, <a href="http://ryanstewman.com/">Client Website</a></p> 
-          <h4><a href="#vid10">Smoochie Poochies Scheduler App</a></h4>
+          <h4><a className="inactive" href="#vid10">Smoochie Poochies Scheduler App</a></h4>
           <p className="links">App download coming soon, <a href="https://www.mysmoochiepoochies.com/">Client Website</a></p> 
      </div>
       <div className="row extra">
         <p>Employers and education:</p>
-          <h4><a href="#vid4">BuzzFeed</a></h4>
-          <h4><a href="#vid5">Quizchat</a></h4>
-          <h4><a href="#vid6">Hutch</a></h4>
-          <h4><a href="#vid8">Cornell Tech, M.Eng Computer Science</a></h4>
-          <h4><a href="#vid9">NYU, B.A. Computer Science</a></h4>
+          <h4 className="mobilehide"><a href="#vid4">BuzzFeed</a></h4><h4 className="mobileshow"><a href="http://buzzfeed.com/">BuzzFeed</a></h4>
+          <h4 className="mobilehide"><a href="#vid5">Quizchat</a></h4>
+          <h4 className="mobilehide"><a href="#vid6">Hutch</a></h4><h4 className="mobileshow"><a href="https://www.hutch.com/">Hutch</a></h4>
+          <h4><a className="inactive" href="#vid8">Cornell Tech, M.Eng Computer Science</a></h4>
+          <h4><a className="inactive" href="#vid9">NYU, B.A. Computer Science</a></h4>
       </div>
     </div>
     <div className="outside">
@@ -89,32 +89,6 @@ class App extends Component {
       </div>
     </div>
     <div className="contain">
-      <div className="insideText">
-        <div className="row">
-          <h1>Tara Wilson</h1>
-          <p>I am a Mobile Developer. Here is some stuff I've created.</p>
-        </div>
-        <div className="row">
-            <h4><a href="#vid1">Musique Live</a></h4>
-            <p className="links"><a href="https://github.com/musique-live/iosApp">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="https://itunes.apple.com/us/app/musique-live/id1217586564">iOS App</a><a href="https://play.google.com/store/apps/details?id=com.musiqueliveapp">Android App</a></p>
-            <h4><a href="#vid2">Augmented Reality Game</a></h4>
-            <p className="links"><a href="https://github.com/tara-wilson/ARMaze">Github</a><a href="https://itunes.apple.com/us/app/md-sunrise-farms-corn-maze/id1289492274?mt=8">Download Link</a></p>
-            <h4><a href="#vid3">NFC Lights Project</a></h4>
-            <p className="links"><a href="https://github.com/tara-wilson/nfc-lights">Github</a></p>
-          <h4><a href="#vid11">E-book activity app</a></h4>
-          <p className="links">App download coming soon, <a href="http://ryanstewman.com/">Client Website</a></p> 
-            <h4><a href="#vid10">Smoochie Poochies Scheduler App</a></h4>
-            <p className="links">App download coming soon, <a href="https://www.mysmoochiepoochies.com/">Client Website</a></p> 
-       </div>
-        <div className="row extra">
-          <p>Employers and education:</p>
-            <h4><a href="#vid4">BuzzFeed</a></h4>
-            <h4><a href="#vid5">Quizchat</a></h4>
-            <h4><a href="#vid6">Hutch</a></h4>
-            <h4><a href="#vid8">Cornell Tech, M.Eng Computer Science</a></h4>
-            <h4><a href="#vid9">NYU, B.A. Computer Science</a></h4>
-        </div>
-      </div>
       <img id="vid7" className="image" src='linkedin.png'/>
       <video id="vid1" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
           <source src="source.mp4" type="video/mp4" /></video>
