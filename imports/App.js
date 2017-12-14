@@ -26,40 +26,59 @@ class App extends Component {
         <p>I am a Mobile Developer. Here is some stuff I''ve created.</p>
       </div>
       <div className="row">
-          <p><a href="#vid1">Musique Live iOS app</a></p>
+          <h4><a href="#vid1">Musique Live iOS app</a></h4>
+          <p className="links"><a href="#">Github</a><a href="#">Website</a><a href="#">Download Link</a></p>
       </div>
       <div className="row">
-          <p><a href="#vid7">Musique Live android app</a></p>
+          <h4><a href="#vid7">Musique Live android app</a></h4>
+          <p className="links"><a href="#">Github</a><a href="#">Website</a><a href="#">Download Link</a></p>
       </div>
       <div className="row">
-          <p><a href="#vid2">Augmented Reality Game</a></p>
+          <h4><a href="#vid2">Augmented Reality Game</a></h4>
+          <p className="links"><a href="#">Github</a><a href="#">Download Link</a></p>
       </div>
       <div className="row">
-          <p><a href="#vid3">A project to turn my lights on and off</a></p>
+          <h4><a href="#vid3">A project to turn my lights on and off</a></h4>
+          <p className="links"><a href="#">Github</a></p>
       </div>
        <div className="row">
-        <p><a href="#vid7">Elevator to the Top, An e-book activity app</a></p>
+        <h4><a href="#vid7">E-book activity app</a></h4>
       </div>
       <div className="row">
-          <p><a href="#vid7">Smoochie Poochies</a></p>
+          <h4><a href="#vid7">Smoochie Poochies</a></h4>
      </div>
+     </div>
+     <div className="outsideright">
       <div className="row">
         <p >Here is some stuff I''ve worked on as an employee.</p>
       </div>
       <div className="row">
-          <p><a href="#vid4">BuzzFeed</a></p>
+          <h4><a href="#vid4">BuzzFeed</a></h4>
+          <p className="links"><a href="#">Download Link</a></p>
       </div>
       <div className="row">
-          <p><a href="#vid5">QuizChat by BuzzFeed</a></p>
+      <h4><a href="#vid4">Quizchat</a></h4>
+          <p className="links"><a href="#">Info</a></p>
       </div>
       <div className="row">
-          <p><a href="#vid6">Hutch</a></p>
+          <h4><a href="#vid6">Hutch</a></h4>
+          <p className="links"><a href="#">Download Link</a></p>
+      </div>
+      <div className="row">
+        <p>Here is where I learned to build stuff</p>
+        </div>
+        <div className="row">
+          <h4><a href="#">Cornell Tech, M.Eng, Computer Science</a></h4>
+        </div>
+        <div className="row">
+           <h4><a href="#">NYU, B.A. Computer Science</a></h4>
+        </div>
+        <div className="row">
+          <p>Here is the link to this website:</p>
+          <p className="links"><a href="#">Github</a></p>
       </div>
     </div>
     <div className="contain">
-      <div className="topspace">
-      hey
-      </div>
       <video id="vid1" className="video" autoplay="autoplay" loop="loop" width="285" height="515">
           <source src="source.mp4" type="video/mp4" /></video>
       <video id="vid2" className="video" autoplay="autoplay" loop="loop" width="285" height="515">

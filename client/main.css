@@ -29,8 +29,17 @@
     height: 700px;
   }
   .outside {
-    padding-top: 50px;
+    position: absolute;
+    top: 70px;
+  }
+  .outsideright {
+    position: absolute;
+    top: 130px;
+    right: 20px;
   }
   .topspace {
     height: 510px;
+  }
+  .links a {
+    padding-right: 10px;
   }
