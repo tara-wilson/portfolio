@@ -17,6 +17,9 @@
     max-width: 285px;
     max-height: 505px;
   }
+  .videolarge {
+    text-align: center;
+  }
   .row {
   	padding-left: 8%;
   	padding-right: 8%;
