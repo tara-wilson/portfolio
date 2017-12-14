@@ -33,20 +33,84 @@
   }
   .outside {
     position: absolute;
-    top: 40px;
+    top: 45px;
   }
   .extra {
-    padding-top: 40px;
-  }
-  .outsideright {
-    position: absolute;
-    top: 90px;
-    right: 20px;
-    width: 285px;
-  }
-  .topspace {
-    height: 510px;
+    padding-top: 20px;
   }
   .outside .links a {
     padding-right: 10px;
+  }
+  .leftdisplay .links a {
+    padding-right: 10px;
+  }
+  h4 {
+      max-height: 10px;
+  }
+  .leftdisplay {
+      position: absolute;
+      top: 50px;
+      display: none;
+  }
+  .insideText {
+      display: none;
+    }
+  @media screen and (min-width: 1050px) {
+    .outsideright {
+      position: absolute;
+      top: 95px;
+      right: 20px;
+      width: 355px;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .outsideright {
+      display: none;
+    }
+    .outside {
+      display: none;
+    }
+    .leftdisplay {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .outsideright {
+      display: none;
+    }
+    .outside {
+      display: none;
+    }
+    .leftdisplay {
+      display: none;
+    }
+    .insideText {
+      display: block;
+      padding-left: 10px;
+      padding-bottom: 20px;
+    }
+    h4 {
+      max-height: 30px;
+    }
+    .links a {
+      padding-right: 10px;
+    }
+    body {
+      overflow: hidden;
+      height: 650px;
+      width: 432px;
+      background: url('chrome-iphone6-432x882@2x.jpg');
+      background-position: 20px 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .contain {
+      overflow: scroll;
+      position: absolute;
+      top: 96px;
+      left: 37px;
+      background-color: white;
+      max-width: 285px;
+      max-height: 505px;
+    }
   }
