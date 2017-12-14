@@ -23,7 +23,7 @@ class App extends Component {
     <div className="outside">
       <div className="row">
         <h1>Tara Wilson</h1>
-        <p>I am a Mobile Developer. Here is some stuff I''ve created.</p>
+        <p>I am a Mobile Developer. Here is some stuff I've created.</p>
       </div>
       <div className="row">
           <h4><a href="#vid1">Musique Live iOS app</a></h4>
@@ -38,7 +38,7 @@ class App extends Component {
           <p className="links"><a href="https://github.com/tara-wilson/ARMaze">Github</a><a href="https://itunes.apple.com/us/app/md-sunrise-farms-corn-maze/id1289492274?mt=8">Download Link</a></p>
       </div>
       <div className="row">
-          <h4><a href="#vid3">A project to turn my lights on and off</a></h4>
+          <h4><a href="#vid3">App to turn my lights on with NFC</a></h4>
           <p className="links"><a href="https://github.com/tara-wilson/nfc-lights">Github</a></p>
       </div>
        <div className="row">
@@ -52,7 +52,7 @@ class App extends Component {
      </div>
      <div className="outsideright">
       <div className="row">
-        <p >Here is some stuff I''ve worked on as an employee.</p>
+        <p >Here is some stuff I've worked on as an employee.</p>
       </div>
       <div className="row">
           <h4><a href="#vid4">BuzzFeed</a></h4>
