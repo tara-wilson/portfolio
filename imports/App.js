@@ -23,7 +23,7 @@ class App extends Component {
       </div>
       <div className="row">
           <h4><a className="inactive" href="#vid1">Musique Live</a></h4>
-          <p className="links"><a href="https://github.com/musique-live/iosApp">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="https://itunes.apple.com/us/app/musique-live/id1217586564">iOS App</a><a href="https://play.google.com/store/apps/details?id=com.musiqueliveapp">Android App</a></p>
+          <p className="links"><a href="https://www.musiqueliveapp.com">Website</a><a href="https://itunes.apple.com/us/app/musique-live/id1217586564">iOS App</a><a href="https://github.com/musique-live/iosApp">iOS Github</a><a href="https://play.google.com/store/apps/details?id=com.musiqueliveapp">Android App</a><a href="https://github.com/tara-wilson/androidApp">Android Github</a></p>
           <h4><a className="inactive" href="#vid2">Augmented Reality Game</a></h4>
           <p className="links"><a href="https://github.com/tara-wilson/ARMaze">Github</a><a href="https://itunes.apple.com/us/app/md-sunrise-farms-corn-maze/id1289492274?mt=8">Download Link</a></p>
           <h4><a className="inactive" href="#vid3">NFC Lights Project</a></h4>
