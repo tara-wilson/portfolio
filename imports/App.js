@@ -27,11 +27,11 @@ class App extends Component {
       </div>
       <div className="row">
           <h4><a href="#vid1">Musique Live iOS app</a></h4>
-          <p className="links"><a href="#">Github</a><a href="#">Website</a><a href="#">Download Link</a></p>
+          <p className="links"><a href="#">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="#">Download Link</a></p>
       </div>
       <div className="row">
           <h4><a href="#vid7">Musique Live android app</a></h4>
-          <p className="links"><a href="#">Github</a><a href="#">Website</a><a href="#">Download Link</a></p>
+          <p className="links"><a href="#">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="#">Download Link</a></p>
       </div>
       <div className="row">
           <h4><a href="#vid2">Augmented Reality Game</a></h4>
@@ -54,28 +54,18 @@ class App extends Component {
       </div>
       <div className="row">
           <h4><a href="#vid4">BuzzFeed</a></h4>
-          <p className="links"><a href="#">Download Link</a></p>
-      </div>
-      <div className="row">
-      <h4><a href="#vid4">Quizchat</a></h4>
-          <p className="links"><a href="#">Info</a></p>
-      </div>
-      <div className="row">
+          <h4><a href="#vid5">Quizchat</a></h4>
           <h4><a href="#vid6">Hutch</a></h4>
-          <p className="links"><a href="#">Download Link</a></p>
       </div>
-      <div className="row">
+      <div className="row extra">
         <p>Here is where I learned to build stuff</p>
         </div>
         <div className="row">
           <h4><a href="#">Cornell Tech, M.Eng, Computer Science</a></h4>
+          <h4><a href="#">NYU, B.A. Computer Science</a></h4>
         </div>
-        <div className="row">
-           <h4><a href="#">NYU, B.A. Computer Science</a></h4>
-        </div>
-        <div className="row">
-          <p>Here is the link to this website:</p>
-          <p className="links"><a href="#">Github</a></p>
+        <div className="row extra">
+          <p><a href="#">Here</a> is the link to this website</p>
       </div>
     </div>
     <div className="contain">

@@ -30,16 +30,20 @@
   }
   .outside {
     position: absolute;
-    top: 70px;
+    top: 40px;
+  }
+  .extra {
+    padding-top: 30px;
   }
   .outsideright {
+    text-align: right;
     position: absolute;
-    top: 130px;
+    top: 90px;
     right: 20px;
   }
   .topspace {
     height: 510px;
   }
-  .links a {
+  .outside .links a {
     padding-right: 10px;
   }
