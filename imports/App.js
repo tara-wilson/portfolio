@@ -23,7 +23,7 @@ class App extends Component {
         <p>I am a Mobile Developer. Here is some stuff I've created.</p>
       </div>
       <div className="row">
-          <h4><a href="#vid1">Musique Live app</a></h4>
+          <h4><a href="#vid1">Musique Live</a></h4>
           <p className="links"><a href="https://github.com/musique-live/iosApp">Github</a><a href="https://www.musiqueliveapp.com">Website</a><a href="https://itunes.apple.com/us/app/musique-live/id1217586564">iOS App</a><a href="https://play.google.com/store/apps/details?id=com.musiqueliveapp">Android App</a></p>
       </div>
       <div className="row">
